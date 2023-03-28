@@ -1,4 +1,4 @@
-#!/Users/jlt/.pyenv/shims/python
+#!/usr/bin/env python
 """gliss - Command Line Interface to interact with GitLab Issues.
 
 Usage:
@@ -16,7 +16,8 @@ Options:
                                     Valid values are "Low", "Medium", "High".
 """
 
-import docopt
+from docopt import docopt
 
-opts = docopt.docopt(__doc__)
-print(opts)
+if __name__ == '__main__':
+  opts = docopt(__doc__)
+  print(opts)
