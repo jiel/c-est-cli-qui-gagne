@@ -1,5 +1,5 @@
 {
-  "name": "python-rennes-soiree-communautes-rennaisess",
+  "name": "python-rennes-soiree-communautes-rennaises",
   "private": true,
   "scripts": {
     "build": "slidev build",
