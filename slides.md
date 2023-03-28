@@ -8,9 +8,9 @@ css: unocss
 ---
 
 ## argparse vs docopt vs click vs fire
-# c'est CLI qui gagne ?
+# C'est CLI qui gagne ?
 
-Soirée des communautés techniques Rennaises
+Soirée des communautés techniques rennaises
 
 ---
 
@@ -67,9 +67,9 @@ Options:
 ---
 
 
-# Le vétéran du circuit: **argparse**
+# Le vétéran du circuit : **argparse**
 
-- inclu dans librairie standard depuis python 2.7
+- inclus dans la librairie standard depuis python 2.7
 - recommandé dans la documentation python (vs [getopt](https://docs.python.org/3/library/getopt.html#module-getopt) et [optparse](https://docs.python.org/3/library/optparse.html))
 
 ---
@@ -165,7 +165,7 @@ $ python gliss-argparse.py show 1234
 
 ---
 
-# L'ancienne gloire: **docopt**
+# L'ancienne gloire : **docopt**
 
 - 7.8k ⭐ 
 - Used by: 86k repos
@@ -233,7 +233,7 @@ Options:
 
 ---
 
-# Le favori des bookmakers: **click**
+# Le favori des bookmakers : **click**
 
 - 13.6k ⭐
 - Used by: 1M repos
@@ -303,7 +303,7 @@ Options:
 
 ---
 
-# L'outsider: **fire**
+# L'outsider : **fire**
 
 - 24.2k ⭐
 - Used by: 18k repos
