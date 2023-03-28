@@ -1,7 +1,7 @@
-import fire
+from fire import Fire
 
 
-class Gliss(object):
+class Gliss:
     """Command Line Interface to interact with GitLab Issues."""
 
     def list(self):
@@ -33,4 +33,4 @@ class Gliss(object):
         print(f"Assigning issue {issue_id} to {assignee_name}")
 
 if __name__ == '__main__':
-    fire.Fire(Gliss)
+    Fire(Gliss)
