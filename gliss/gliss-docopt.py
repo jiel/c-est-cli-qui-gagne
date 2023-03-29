@@ -12,7 +12,7 @@ Usage:
 Options:
   -h --help                         Show this screen.
   -d --description=<description>    Description of the issue.
-  -p --priority=<priority>          Priority of the issue.
+  -p --priority=<priority>          Priority of the issue [default: Low].
                                     Valid values are "Low", "Medium", "High".
 """
 
