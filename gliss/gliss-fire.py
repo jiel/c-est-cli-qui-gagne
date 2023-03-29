@@ -1,5 +1,12 @@
 from fire import Fire
 
+from enum import Enum
+
+class Priority(Enum):
+    Low = 'Low'
+    Medium = 'Medium'
+    High = 'High'
+
 
 class Gliss:
     """Command Line Interface to interact with GitLab Issues."""
@@ -8,13 +15,14 @@ class Gliss:
         """List all issues."""
         print("Listing all issues.")
 
-    def create(self, title, description=None, priority=None):
+    def create(self, title, description=None, priority='Low'):
+        valid_priority = Priority(priority) # use an enum to validate the value
         """Create a new issue."""
         print(f"Creating issue: {title}")
         if description:
             print(f"Description: {description}")
         if priority:
-            print(f"Priority: {priority}")
+            print(f"Priority: {valid_priority.value}")
 
     def show(self, issue_id):
         """Show details of an issue."""
