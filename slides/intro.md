@@ -5,12 +5,16 @@ layout: center
 
 # Command Line Interface
 
+<v-clicks>
+
 - une IHM qui remonte aux années 60 
 - une IHM de choix pour du tooling IT
 - avantages :
   - rapidité d'usage (mémoire musculaire)
   - composabilité (scripting)
   - simplicité de développement
+
+</v-clicks>
 
 ---
 title: cli grammar
@@ -30,9 +34,13 @@ Usage:
   gliss assign <issue-id> <assignee-name>
 ```
 
-- respect des conventions (POSIX..)
+<v-clicks>
+
+cd- respect des conventions (POSIX..)
 - des arguments et des options logiques et intuitifs
 - auto apprentissage avec l'aide intégrée
+
+</v-clicks>
 
 ---
 title: gliss
