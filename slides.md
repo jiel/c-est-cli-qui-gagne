@@ -7,6 +7,11 @@ lineNumbers: false
 css: unocss
 ---
 
+## argparse vs docopt vs click vs fire
+# C'est CLI qui gagne ?
+
+Soirée des communautés techniques rennaises
+
 ---
 src: ./slides/intro.md
 ---
