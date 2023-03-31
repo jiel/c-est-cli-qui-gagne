@@ -5,13 +5,20 @@ image: https://media.gettyimages.com/id/498188417/fr/photo/boxer-with-arms-raise
 
 # L'ancienne gloire : **docopt**
 
+<v-clicks>
+
 - 7.8k ⭐ 
 - Used by: 86k repos
 - proposé à pycon UK 2012 http://youtu.be/pXhcPJK5cMc
-- porté dans 23 langages
 - approche recommandée par la [PEP 257](https://peps.python.org/pep-0257/)
 
-The docstring of a script (a stand-alone program) should be usable as its “usage” message, printed when the script is invoked with incorrect or missing arguments (or perhaps with a “-h” option, for “help”).
+</v-clicks>
+
+<v-click>
+
+> _The docstring of a script (a stand-alone program) should be usable as its “usage” message, printed when the script is invoked with incorrect or missing arguments (or perhaps with a “-h” option, for “help”)._
+
+</v-click>
 
 ---
 title: docopt
@@ -48,6 +55,7 @@ title: docopt
 layout: center
 ---
 
+### tout le --help mais rien d'autre que le --help
 ```sh
 $ python gliss-docopt.py --help     
 gliss - Command Line Interface to interact with GitLab Issues.
@@ -72,7 +80,11 @@ title: docopt
 layout: center
 ---
 
-- approche UI-first
-- plus de limite 
-- le projet n'est plus maintenu depuis 2014
-- il existe un fork par jazzband
+### docopt, c'en est où?
+<v-clicks>
+
+- porté dans 23 langages
+- le projet n'est plus maintenu depuis 2014 😢
+- il existe un fork par la [communauté jazzband](https://jazzband.co/) : [docopt-ng](https://github.com/jazzband/docopt-ng)
+
+</v-clicks>
