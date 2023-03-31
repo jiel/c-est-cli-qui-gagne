@@ -36,7 +36,7 @@ Usage:
 
 <v-clicks>
 
-cd- respect des conventions (POSIX..)
+- respect des conventions (POSIX..)
 - des arguments et des options logiques et intuitifs
 - auto apprentissage avec l'aide intégrée
 
