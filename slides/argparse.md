@@ -46,6 +46,7 @@ title: argparse
 layout: center
 ---
 
+### génération du --help à partir des valeurs des paramètres _help_
 ```sh
 $ python gliss-argparse.py --help
 usage: gliss-argparse.py [-h] {list,create,show,close,comment,assign} ...
@@ -70,6 +71,7 @@ title: argparse
 layout: center
 ---
 
+### aide détaillée pour chaque commande
 ```sh
 $ python gliss-argparse.py create --help
 usage: gliss-argparse.py create [-h] [-d DESCRIPTION] [-p {Low,Medium,High}]
