@@ -72,16 +72,17 @@ layout: center
 
 ```sh
 $ python gliss-argparse.py create --help
-usage: gliss-argparse.py create [-h] [--description DESCRIPTION] [--priority {Low,Medium,High}] title
+usage: gliss-argparse.py create [-h] [-d DESCRIPTION] [-p {Low,Medium,High}]
+                                title
 
 positional arguments:
   title                 Title of the issue
 
-options:
+optional arguments:
   -h, --help            show this help message and exit
-  --description DESCRIPTION
+  -d DESCRIPTION, --description DESCRIPTION
                         Description of the issue
-  --priority {Low,Medium,High}
+  -p {Low,Medium,High}, --priority {Low,Medium,High}
                         Priority of the issue
 ```
 
