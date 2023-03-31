@@ -11,8 +11,8 @@ if __name__ == '__main__':
     # Create new issue
     create_parser = subparsers.add_parser('create', help='Create a new issue')
     create_parser.add_argument('title', help='Title of the issue')
-    create_parser.add_argument('--description', help='Description of the issue')
-    create_parser.add_argument('--priority', choices=['Low', 'Medium', 'High'], default='Low', help='Priority of the issue')
+    create_parser.add_argument('-d', '--description', help='Description of the issue')
+    create_parser.add_argument('-p', '--priority', choices=['Low', 'Medium', 'High'], default='Low', help='Priority of the issue')
 
     # Show issue details
     show_parser = subparsers.add_parser('show', help='Show details of an issue')
