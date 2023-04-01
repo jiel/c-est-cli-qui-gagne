@@ -71,7 +71,7 @@ Usage:
 Options:
   -h --help                         Show this screen.
   -d --description=<description>    Description of the issue.
-  -p --priority=<priority>          Priority of the issue.
+  -p --priority=<priority>          Priority of the issue [default: Low].
                                     Valid values are "Low", "Medium", "High".
 ```
 
@@ -80,7 +80,75 @@ title: docopt
 layout: center
 ---
 
-### docopt, c'en est où?
+### [default: Low] est supporté
+```sh
+python gliss-docopt.py create "implement create issue"
+{'--description': None,
+ '--priority': 'Low',
+ '<assignee-name>': None,
+ '<comment>': None,
+ '<issue-id>': None,
+ '<title>': 'implement create issue',
+ 'assign': False,
+ 'close': False,
+ 'comment': False,
+ 'create': True,
+ 'list': False,
+ 'show': False}
+```
+
+---
+title: docopt
+layout: center
+---
+
+### mais pas de validation des valeurs
+```sh
+$ python gliss-docopt.py create toto --priority critical
+{'--description': None,
+ '--priority': 'critical',
+ '<assignee-name>': None,
+ '<comment>': None,
+ '<issue-id>': None,
+ '<title>': 'toto',
+ 'assign': False,
+ 'close': False,
+ 'comment': False,
+ 'create': True,
+ 'list': False,
+ 'show': False}
+```
+---
+title: docopt
+layout: center
+---
+
+### pas d'aide spécifique aux commandes
+```sh
+python gliss-docopt.py create --help
+gliss - Command Line Interface to interact with GitLab Issues.
+
+Usage:
+  gliss list
+  gliss create <title> [--description=<description>] [--priority=<priority>]
+  gliss show <issue-id>
+  gliss close <issue-id>
+  gliss comment <issue-id> <comment>
+  gliss assign <issue-id> <assignee-name>
+
+Options:
+  -h --help                         Show this screen.
+  -d --description=<description>    Description of the issue.
+  -p --priority=<priority>          Priority of the issue [default: Low].
+                                    Valid values are "Low", "Medium", "High".
+```
+
+---
+title: docopt
+layout: center
+---
+
+### ca va doc ?
 <v-clicks>
 
 - porté dans 23 langages
