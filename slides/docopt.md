@@ -7,9 +7,9 @@ image: https://media.gettyimages.com/id/498188417/fr/photo/boxer-with-arms-raise
 
 <v-clicks>
 
+- proposé à pycon UK 2012 http://youtu.be/pXhcPJK5cMc
 - 7.8k ⭐ 
 - Used by: 86k repos
-- proposé à pycon UK 2012 http://youtu.be/pXhcPJK5cMc
 - approche recommandée par la [PEP 257](https://peps.python.org/pep-0257/)
 
 </v-clicks>
