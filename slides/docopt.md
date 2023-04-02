@@ -55,7 +55,8 @@ title: docopt
 layout: center
 ---
 
-### tout le --help mais rien d'autre que le --help
+### Tout le --help mais rien d'autre que le --help
+
 ```sh
 $ python gliss-docopt.py --help     
 gliss - Command Line Interface to interact with GitLab Issues.

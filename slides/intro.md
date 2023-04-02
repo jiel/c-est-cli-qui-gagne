@@ -21,7 +21,7 @@ title: cli grammar
 layout: center
 ---
 
-# définition d'une grammaire
+# Définition d'une grammaire
 
 ```sh
 $ gliss

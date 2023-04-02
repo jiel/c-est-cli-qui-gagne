@@ -16,9 +16,9 @@ layout: center
 
 gliss-fire.py
 ```python
-import fire
+from fire import Fire
 
-class Gliss(object):
+class Gliss:
     """Command Line Interface to interact with GitLab Issues."""
 
     def list(self):
@@ -36,7 +36,7 @@ class Gliss(object):
     (...)
 
 if __name__ == '__main__':
-    fire.Fire(Gliss)
+    Fire(Gliss)
 ```
 
 ---

@@ -7,7 +7,7 @@ image: https://media.gettyimages.com/id/104737255/fr/photo/winning-african-ameri
 
 - 13.6k ⭐
 - Used by: 1M repos
-- créé par Armin Ronacher (Flask, Jinja, ..)
+- créé par Armin Ronacher (Flask, Jinja, etc.)
 
 ---
 title: click

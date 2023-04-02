@@ -46,7 +46,7 @@ title: argparse
 layout: center
 ---
 
-### génération du --help à partir des valeurs des paramètres _help_
+### Génération du --help à partir des valeurs des paramètres _help_
 ```sh
 $ python gliss-argparse.py --help
 usage: gliss-argparse.py [-h] {list,create,show,close,comment,assign} ...
@@ -71,7 +71,8 @@ title: argparse
 layout: center
 ---
 
-### aide détaillée pour chaque commande
+### Aide détaillée pour chaque commande
+
 ```sh
 $ python gliss-argparse.py create --help
 usage: gliss-argparse.py create [-h] [-d DESCRIPTION] [-p {Low,Medium,High}]
@@ -93,7 +94,8 @@ title: argparse
 layout: center
 ---
 
-### valeur par défaut
+### Valeur par défaut
+
 ```sh
 $ python gliss-argparse.py create "implement create issue" 
 {'command': 'create', 'title': 'implement create issue', 'description': None, 'priority': 'Low'}
@@ -103,7 +105,9 @@ $ python gliss-argparse.py create "implement create issue"
 title: argparse
 layout: center
 ---
-### validation des arguments
+
+### Validation des arguments
+
 ```sh
 $ python gliss-argparse.py create "implement create issue" --priority=critical
 usage: gliss-argparse.py create [-h] [--description DESCRIPTION] [--priority {Low,Medium,High}] title
@@ -114,7 +118,9 @@ gliss-argparse.py create: error: argument --priority: invalid choice: 'critical'
 title: argparse
 layout: center
 ---
-### typage
+
+### Typage
+
 ```sh
 $ python gliss-argparse.py show 1234                                          
 {'command': 'show', 'issue_id': 1234}
