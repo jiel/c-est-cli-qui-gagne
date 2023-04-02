@@ -16,7 +16,7 @@ layout: center
 | **design** | orienté-CLI<br />(-> nestable parser) | orienté-CLI<br />(-> aide) | orienté-métier | orienté-métier (nested objects) |
 | **typage des valeurs** | API du parser | str ou bool | API des décorateurs | heuristique interne (annotations ignorées 😕) |
 | **verbosité** et **couplage** | parser verbeux +/- couplé aux fonctions métier | verbosité fonction de la docstring (syntaxe élaborée) | couplage des fonctions métier aux décorateurs empilés | 0 boilerplate, le code est métier-first (avec des hacks pour la CLI) |
-| **documentation** | champs *description* ou *help* | la docstring source | champs *help* | docstring et signature de fonctions / méthodes |
+| **documentation** | champs *description* ou *help* | la docstring source | champs *help* et docstring de fonction | docstring et signature de fonctions / méthodes |
 
 <!--
 Pour ou contre CLick ?
