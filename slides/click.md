@@ -5,9 +5,14 @@ image: https://media.gettyimages.com/id/104737255/fr/photo/winning-african-ameri
 
 # Le favori des bookmakers : **click**
 
+<v-clicks>
+
 - 13.6k ⭐
 - Used by: 1M repos
-- créé par Armin Ronacher (Flask, Jinja, etc.)
+- créé par Armin Ronacher (flask, jinja, etc.)
+- [Typer](https://typer.tiangolo.com) par @tiangolo (fastapi)
+
+</v-clicks>
 
 ---
 title: click
