@@ -14,7 +14,7 @@ def list():
 @gliss.command()
 @click.argument('title')
 @click.option('--description', '-d', help='Description of the issue.')
-@click.option('--priority', '-p', type=click.Choice(['Low', 'Medium', 'High']),
+@click.option('--priority', '-p', type=click.Choice(['Low', 'Medium', 'High']), default='Low',
               help='Priority of the issue. Valid values are "Low", "Medium", "High".')
 def create(title, description, priority):
     """Create a new issue."""
