@@ -15,7 +15,7 @@ layout: center
 ---
 
 gliss-click.py
-```python
+```python {1,3,8,13-17|3-6|8-11|13-20}
 import click
 
 @click.group()
@@ -32,7 +32,7 @@ def list():
 @click.argument('title')
 @click.option('--description', '-d', help='Description of the issue.')
 @click.option('--priority', '-p', type=click.Choice(['Low', 'Medium', 'High']), default='Low',
-              help='Priority of the issue. Valid values are "Low", "Medium", "High".')
+              help='Priority of the issue.')
 def create(title, description, priority):
     """Create a new issue."""
     click.echo(f"Creating issue: {title} {description} {priority}")
@@ -46,6 +46,7 @@ title: click
 layout: center
 ---
 
+### Génération du --help 
 ```sh
 $ python gliss-click.py --help 
 Usage: gliss-click.py [OPTIONS] COMMAND [ARGS]...
@@ -64,6 +65,12 @@ Commands:
   show     Show details of an issue.
 ```
 
+---
+title: click
+layout: center
+---
+
+### Aide détaillée sur une commande
 ```sh
 $ python gliss-click.py create --help
 Usage: gliss-click.py create [OPTIONS] TITLE
@@ -73,7 +80,6 @@ Usage: gliss-click.py create [OPTIONS] TITLE
 Options:
   -d, --description TEXT          Description of the issue.
   -p, --priority [Low|Medium|High]
-                                  Priority of the issue. Valid values are
-                                  "Low", "Medium", "High".
+                                  Priority of the issue.
   --help                          Show this message and exit.
 ```
