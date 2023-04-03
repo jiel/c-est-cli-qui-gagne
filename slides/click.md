@@ -20,7 +20,7 @@ layout: center
 ---
 
 gliss-click.py
-```python {1,3,8,13-17|3-6|8-11|13-20}
+```python {4-6,9-11,18-20|1,3,8,13-17|3-6|8-11|13-20}
 import click
 
 @click.group()

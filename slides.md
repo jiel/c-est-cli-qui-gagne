@@ -12,10 +12,10 @@ css: unocss
 
 Soirée des communautés techniques rennaises
 
-<div class="abs-bl ml-12 mb-16 flex items-center" >
+<div class="abs-bl ml-12 mb-16" >
 	<span class="font-300">Jean-Luc Tromparent</span>
 </div>
-<div class="abs-br mr-12 mb-16 flex items-center" >
+<div class="abs-br mr-12 mb-16" >
 	<span class="font-300">Luc Sorel-Giffo</span>
 </div>
 
