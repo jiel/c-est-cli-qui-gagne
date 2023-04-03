@@ -10,7 +10,7 @@ css: unocss
 ## argparse vs docopt vs click vs fire
 # C'est CLI qui gagne ?
 
-Soirée des communautés techniques rennaises
+Soirée des communautés rennaises
 
 <div class="abs-bl ml-12 mb-16" >
 	<span class="font-300">Jean-Luc Tromparent</span>
