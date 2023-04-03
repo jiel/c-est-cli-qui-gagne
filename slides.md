@@ -20,10 +20,6 @@ Soirée des communautés techniques rennaises
 </div>
 
 ---
-src: ./slides/pythonrennes.md
----
-
----
 src: ./slides/intro.md
 ---
 
@@ -45,4 +41,8 @@ src: ./slides/fire.md
 
 ---
 src: ./slides/conclusion.md
+---
+
+---
+src: ./slides/pythonrennes.md
 ---
