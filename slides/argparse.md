@@ -14,7 +14,7 @@ layout: center
 ---
 
 gliss-argparse.py
-```python {1-3|7-8|10-15|14-15|18-19|all}
+```python {1-3|7-8|10-15|14-15|18-19|23-24}
 import argparse
 
 parser = argparse.ArgumentParser(description='Command Line Interface to interact with GitLab Issues.')

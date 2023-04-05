@@ -5,9 +5,13 @@ image: https://media.gettyimages.com/id/535582502/fr/photo/gagnant-boxeur-enfant
 
 # L'outsider : **fire**
 
+<v-clicks>
+
 - 24.2k ⭐
 - Used by: 18k repos
 - porté par google
+
+</v-clicks>
 
 ---
 title: fire
