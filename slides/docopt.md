@@ -81,52 +81,9 @@ title: docopt
 layout: center
 ---
 
-### [default: Low] est supporté
+### Pas d'aide spécifique par commande
 ```sh
-python gliss-docopt.py create "implement create issue"
-{'--description': None,
- '--priority': 'Low',
- '<assignee-name>': None,
- '<comment>': None,
- '<issue-id>': None,
- '<title>': 'implement create issue',
- 'assign': False,
- 'close': False,
- 'comment': False,
- 'create': True,
- 'list': False,
- 'show': False}
-```
-
----
-title: docopt
-layout: center
----
-
-### mais pas de validation des valeurs
-```sh
-$ python gliss-docopt.py create toto --priority critical
-{'--description': None,
- '--priority': 'critical',
- '<assignee-name>': None,
- '<comment>': None,
- '<issue-id>': None,
- '<title>': 'toto',
- 'assign': False,
- 'close': False,
- 'comment': False,
- 'create': True,
- 'list': False,
- 'show': False}
-```
----
-title: docopt
-layout: center
----
-
-### pas d'aide spécifique aux commandes
-```sh
-python gliss-docopt.py create --help
+$ python gliss-docopt.py create --help
 gliss - Command Line Interface to interact with GitLab Issues.
 
 Usage:
@@ -149,7 +106,52 @@ title: docopt
 layout: center
 ---
 
-### ca va doc ?
+### Les valeurs par défaut sont supportés
+```sh
+$ python gliss-docopt.py create "implement create issue"
+{'--description': None,
+ '--priority': 'Low',
+ '<assignee-name>': None,
+ '<comment>': None,
+ '<issue-id>': None,
+ '<title>': 'implement create issue',
+ 'assign': False,
+ 'close': False,
+ 'comment': False,
+ 'create': True,
+ 'list': False,
+ 'show': False}
+```
+
+---
+title: docopt
+layout: center
+---
+
+### Mais pas de validation des valeurs
+```sh
+$ python gliss-docopt.py create toto --priority critical
+{'--description': None,
+ '--priority': 'critical',
+ '<assignee-name>': None,
+ '<comment>': None,
+ '<issue-id>': None,
+ '<title>': 'toto',
+ 'assign': False,
+ 'close': False,
+ 'comment': False,
+ 'create': True,
+ 'list': False,
+ 'show': False}
+```
+
+---
+title: docopt
+layout: center
+---
+
+### comment ca va doc(opt) ?
+
 <v-clicks>
 
 - porté dans 23 langages
